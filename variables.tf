@@ -1,12 +1,12 @@
-######## s3_bucket ########
+# ######## s3_bucket ########
 
-variable "bucket_name" {}
+# variable "bucket_name" {}
 
-variable "bucket_tag_name" {}
+# variable "bucket_tag_name" {}
 
-variable "env_tag" {}
+# variable "env_tag" {}
 
-variable "backend_key" {}
+# variable "backend_key" {}
 
 ######## Kubernetes Cluster Variables ########
 
