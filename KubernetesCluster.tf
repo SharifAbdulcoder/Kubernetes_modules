@@ -13,7 +13,7 @@ module "kubernetes" {
   hosted_zone          = "${var.hosted_zone}"
   hosted_zone_private  = false
 
-  master_subnet_id = "${master_subnet_id}"
+  master_subnet_id = "${var.master_subnet_id}"
 
   worker_subnet_ids = [
     "${var.worker_subnet_ids1}",
