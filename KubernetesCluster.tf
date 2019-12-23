@@ -11,7 +11,7 @@ module "kubernetes" {
   min_worker_count     = "${var.min_worker_count}"
   max_worker_count     = "${var.max_worker_count}"
   hosted_zone          = "${var.hosted_zone}"
-  hosted_zone_private  = false
+  hosted_zone_private  = true
 
   master_subnet_id = "${var.master_subnet_id}"
 
